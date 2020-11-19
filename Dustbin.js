@@ -4,7 +4,7 @@ class Dustbin {
         World.add(world,this.body);
         this.width = width;
         this.height = height;
-        this.image = loadImage("dustbingreen.png");
+        
     }
     display(){
         var pos = this.body.position;
