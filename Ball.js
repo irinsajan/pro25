@@ -6,8 +6,7 @@ class Ball{
         this.image = loadImage("paper.png");
     }
     display(){
-        fill("red");
-        ellipseMode(RADIUS);
-        ellipse(this.body.position.x,this.body.position.y,this.radius,this.radius);
+        imageMode(CENTER);
+        image(this.image,this.body.position.x,this.body.position.y,this.radius,this.radius);
     }
 }
